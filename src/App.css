@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin: 1rem;
+  color: #1f2937;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.button.add {
+  background-color: #3b82f6;
+}
+
+.button.pop {
+  background-color: #ef4444;
+}
+
+.button.find {
+  background-color: #f59e0b;
+}
+
+.button.list {
+  background-color: #10b981;
+}
+
+.output {
+  margin-top: 2rem;
+  background: #e5e7eb;
+  padding: 1rem;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
